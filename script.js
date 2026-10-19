@@ -1,4 +1,4 @@
-// Customize this address to make the contact form work for you.
+// Customize this address to make the contact form work for...
 const CONTACT_EMAIL = "toriqulitariq@gmail.com";
 
 const menuToggle = document.querySelector("#menuToggle");
