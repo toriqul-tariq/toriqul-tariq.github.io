@@ -30,9 +30,14 @@ document.querySelector("#contactForm").addEventListener("submit", (event) => {
   const subject = form.get("subject").trim();
   const message = form.get("message").trim();
 
+  // if (CONTACT_EMAIL === "toriqulitariq@gmail.com") {
+  //   document.querySelector("#formNote").textContent =
+  //     "Please update CONTACT_EMAIL in script.js with your real email address first.";
+  //   return;
+  // }
   if (CONTACT_EMAIL === "toriqulitariq@gmail.com") {
     document.querySelector("#formNote").textContent =
-      "Please update CONTACT_EMAIL in script.js with your real email address first.";
+      "Please send me your message from your email address...";
     return;
   }
 
