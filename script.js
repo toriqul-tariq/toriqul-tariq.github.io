@@ -37,7 +37,7 @@ document.querySelector("#contactForm").addEventListener("submit", (event) => {
   }
 
   const body = `Name: ${name}\nEmail: ${email}\n\n${message}`;
-  const mailto = `mailto:${toriqulitariq@gmail.com}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+  const mailto = `mailto:${CONTACT_EMAIL}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
   document.querySelector("#formNote").textContent = "Opening your email application…";
   window.location.href = mailto;
 });
