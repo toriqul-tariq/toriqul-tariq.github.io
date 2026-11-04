@@ -12,10 +12,6 @@
 * {
     box-sizing: border-box;
 }
-/* html {
-    scroll-behavior: smooth;
-    scroll-padding-top: 50px;
-} */
 body {
     margin: 0;
     background: var(--bg);
@@ -128,6 +124,9 @@ a {
     color: var(--muted);
     font-size: 1.1rem;
 }
+.hero p {
+    text-align: justify;
+}
 .hero h1 {
     font-size: clamp(3.2rem, 7vw, 5.5rem);
     line-height: 1.08;
@@ -200,7 +199,8 @@ a {
 }
 .hero-meta svg {
     width: 15px;
-} /* ======== Profile footer ======= */ /* .profile-img{ } */
+} 
+/* ======== Profile footer ======= */
 .profile-footer {
     border-top: 1px solid var(--line);
     margin-top: 10px;
@@ -219,7 +219,7 @@ a {
 .profile-footer svg {
     width: 20px;
     color: #82dfbd;
-} /* ================================ */
+}
 .hero-bottom {
     display: flex;
     align-items: center;
@@ -258,6 +258,7 @@ a {
 .about-copy p {
     color: var(--muted);
     margin: 0 0 17px;
+    text-align: justify;
 }
 .text-link {
     display: inline-flex;
@@ -303,11 +304,15 @@ a {
 .section-heading .section-intro {
     max-width: 380px;
     margin: 0 0 5px;
+    text-align: justify;
 }
 .skills-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 17px;
+}
+.skills-grid p {
+    text-align: justify;
 }
 .skill-card,
 .project-card {
@@ -505,7 +510,10 @@ a {
 }
 .project-body h3 {
     margin-top: 0;
-} 
+}
+.project-body p {
+    text-align: justify;
+}
 /*============== Education section ==========*/
 .education-grid {
     display: grid;
@@ -640,6 +648,9 @@ a {
     align-items: center;
     justify-content: space-between;
     gap: 20px;
+}
+.footer p {
+    text-align: center;
 }
 .footer p,
 .footer-inner > span {
