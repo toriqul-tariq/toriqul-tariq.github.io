@@ -84,14 +84,9 @@ a {
 }
 .hero {
     min-height: 690px;
-    padding: 90px 0 35px;
     position: relative;
     overflow: hidden;
-    background: radial-gradient(
-        ellipse at 78% 38%,
-        rgba(84, 91, 222, 0.13),
-        transparent 38%
-    );
+    background: radial-gradient(ellipse at 78% 38%,rgba(84, 91, 222, 0.13),transparent 38%);
 }
 .hero-grid {
     display: grid;
